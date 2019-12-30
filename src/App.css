@@ -1,0 +1,55 @@
+.column{
+    text-align: center;
+    background-color: #333131;
+    width: 100%;
+}
+.columnBgSuccess{
+    width: fit-content;
+    display: inline-block;
+    margin: 5px;
+    height: 580px;    
+    background-color: #4e4d4d;
+}
+table thead{
+    background-color: #4e4d4d;
+    color: #fff;
+}
+table tbody span{
+    float: right;
+    color:#d88f09;
+}
+table tbody tr{
+    text-align: left;
+    color: #fff;
+    background-color: #4e4d4d;
+}
+.table-striped>tbody>tr:nth-of-type(odd){
+    background-color: #4e4d4d;
+}
+.selectBox{
+    padding-left: 15px;
+    height: 34px
+}
+.selectBox select{
+    width: 20%;
+}
+.searchBox{
+    width: 40%;
+}
+@media only screen and (max-device-width: 768px) {
+    .columnBgSuccess{
+        width: 150px!important;
+    }
+    .columnBgSuccess img{
+        width: 150px!important;
+    }
+  }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .columnBgSuccess{
+        width: 200px;
+    }
+    .columnBgSuccess img{
+        width: 200px;
+    }
+  }
+ 
